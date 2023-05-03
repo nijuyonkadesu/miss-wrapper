@@ -21,5 +21,5 @@ interface AuthApi {
     suspend fun authenticate(
         @Header("Authorization") token: String
     )
-    // Use interceptor for multiple authentication routes
+    // TODO: Use interceptor for multiple authentication routes
 }
